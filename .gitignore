@@ -9,3 +9,15 @@ RealEstateTransactionKorea-master/pastData/7_단독다가구 전월세_all_reord
 RealEstateTransactionKorea-master/pastData/7_아파트 전월세_all_reordered.tsv
 RealEstateTransactionKorea-master/pastData/9_연립다세대 전월세_all_reordered.tsv
 RealEstateTransactionKorea-master/pastData/a_오피스텔 전월세_all_reordered.tsv
+RealEstateTransactionKorea-master/merged.zip
+RealEstateTransactionKorea-master/merged/단독다가구 매매.csv
+RealEstateTransactionKorea-master/merged/단독다가구 전월세.csv
+RealEstateTransactionKorea-master/merged/분양권.csv
+RealEstateTransactionKorea-master/merged/상업업무용 매매.csv
+RealEstateTransactionKorea-master/merged/아파트 매매.csv
+RealEstateTransactionKorea-master/merged/아파트 전월세.csv
+RealEstateTransactionKorea-master/merged/연립다세대 매매.csv
+RealEstateTransactionKorea-master/merged/연립다세대 전월세.csv
+RealEstateTransactionKorea-master/merged/오피스텔 매매.csv
+RealEstateTransactionKorea-master/merged/오피스텔 전월세.csv
+RealEstateTransactionKorea-master/merged/토지 매매.csv
