@@ -23,3 +23,7 @@ RealEstateTransactionKorea-master/merged/오피스텔 전월세.csv
 RealEstateTransactionKorea-master/merged/토지 매매.csv
 *.ipynb
 .vscode/settings.json
+RealEstateTransactionKorea-master/withLocation/단독다가구 전월세.csv
+RealEstateTransactionKorea-master/withLocation/아파트 전월세.csv
+RealEstateTransactionKorea-master/withLocation/연립다세대 전월세.csv
+RealEstateTransactionKorea-master/withLocation/오피스텔 전월세.csv
