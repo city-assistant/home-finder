@@ -96,23 +96,23 @@ T = 실제 디비를 소유한 플랫폼에서 비슷한거 만들어버리면 �
 
 2-1-1. 데이터 정제 및 위치 태깅
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%202.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%202.png)
+![images/Untitled%202.png](images/Untitled%202.png)
 
 2-1-2. 부동산 데이터 분리 저장
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%203.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%203.png)
+![images/Untitled%203.png](images/Untitled%203.png)
 
 2-1-3. 연결
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%204.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%204.png)
+![images/Untitled%204.png](images/Untitled%204.png)
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%205.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%205.png)
+![images/Untitled%205.png](images/Untitled%205.png)
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%206.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%206.png)
+![images/Untitled%206.png](images/Untitled%206.png)
 
 2-1-5. 스프링과 회원관리 로직 연결
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%207.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%207.png)
+![images/Untitled%207.png](images/Untitled%207.png)
 
 2-1-4. LSTM으로 법정동 별 월 평균을 학습시켜 예측값 적용
 
@@ -126,13 +126,13 @@ T = 실제 디비를 소유한 플랫폼에서 비슷한거 만들어버리면 �
 
 2-2-1. 활용 프로그램
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%208.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%208.png)
+![images/Untitled%208.png](images/Untitled%208.png)
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%209.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%209.png)
+![images/Untitled%209.png](images/Untitled%209.png)
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%2010.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%2010.png)
+![images/Untitled%2010.png](images/Untitled%2010.png)
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%2011.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled%2011.png)
+![images/Untitled%2011.png](images/Untitled%2011.png)
 
 2-3. 단계별 수행 내용
 
