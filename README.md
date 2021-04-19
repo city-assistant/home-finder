@@ -47,7 +47,7 @@ team 도시비서 도비
 
 [서울 생활인구 데이터를 격자로 재할당하기 ver2](https://www.vw-lab.com/87)
 
-![%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled.png](%E1%84%80%E1%85%A9%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8C%E1%85%AF%20%E1%84%92%E1%85%A9%E1%86%B7%E1%84%8C%E1%85%B3%2025fbd8e9820b42fb8b0d2d81781d3f1e/Untitled.png)
+![골라줘 홈즈 25fbd8e9820b42fb8b0d2d81781d3f1e/Untitled.png](골라줘 홈즈 25fbd8e9820b42fb8b0d2d81781d3f1e/Untitled.png)
 
 2. 걸리는 거리 - 대전제는 ‘시간’ -
 
