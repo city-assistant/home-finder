@@ -8,21 +8,13 @@ from keras.models import Sequential
 from keras.layers import Dense 
 import keras.backend as K 
 from keras.callbacks import EarlyStopping
+
 class Predict:
     def __init__(self):
         self.result = []
 
-    def action(self):
-        dataDfDict ={}
-        with open('C:\ITStudy\home-finder\RealEstateTransactionKorea-master\cityTranslatedData.json', 'r', encoding='utf-8') as f:
-            json_data = json.load(f)
-        for key in json_data.keys():
-            for i in range(len(json_data[key]['datas'])):
-                if json_data[key]['datas'][i] == "":
-                    json_data[key]['datas'][i] = json_data[key]['datas'][i-1]
-            dataDfDict[key] = pd.DataFrame(json_data[key]['datas'], json_data[key]['labels'])
-
-        df = dataDfDict['서울특별시 마포구 상수동']
+    def action(self, injectedDatas):
+        df = pd.DataFrame(injectedDatas)
         cutParameter = 0.75
         cut = int(len(df) * cutParameter)
 
@@ -75,8 +67,9 @@ class Predict:
         model.fit(X_train_t, y_train, epochs=100,
         batch_size=30, verbose=1, callbacks=[early_stop])
 
-        maxChange = max(train[0])
+        maxChange = max(injectedDatas)
 
         y_pred = model.predict(X_train_t[-12:], batch_size=32)
-
-        self.result = [list(y_train * maxChange) + list(y_pred * maxChange) + list(y_pred * maxChange), list(y_train * maxChange) + list(y_test * maxChange) + list(y_pred * maxChange)]
+        print(X_train_t)
+        print([v[0] for v in list(y_pred * maxChange)])
+        self.result = [v[0] for v in list(y_pred * maxChange)]
