@@ -2,17 +2,16 @@ from flask import Flask
 from flask_cors import CORS
 from flask import request
 import json
-import Predict_test
+import Predict_test2
 
 app = Flask(__name__)
 CORS(app)
 
 @app.route("/", methods=['GET', 'POST'])
 def hello():
-    p = Predict_test.Predict()
+    p = Predict_test2.Predict()
     p.action(json.loads(str(request.data).split('\'')[1])['data'])
-    result = p.result
-    return str(result)
+    return {"result":p.result, "test":p.test}
 
 if __name__ == "__main__":
     app.run()

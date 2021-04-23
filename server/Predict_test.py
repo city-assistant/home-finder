@@ -48,10 +48,10 @@ class Predict:
         batch_size=30, verbose=1, callbacks=[early_stop])
 
 
-        y_pred = model.predict(X_train_t[-2:], batch_size=32)
+        # y_pred = model.predict(X_train_t[-2:], batch_size=32)
         print(X_train_t[-2:])
         print([X_train_t[-1]])
-        # y_pred = model.predict(X_train_t[-12:], batch_size=32)
+        y_pred = model.predict(X_train_t[-12:], batch_size=32)
         y_pred_inversed = sc.inverse_transform(y_pred)
         print(y_pred_inversed)
         self.result = [v[0] for v in list(y_pred_inversed)]
