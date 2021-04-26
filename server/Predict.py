@@ -24,8 +24,10 @@ class Predict:
 
         x, y = array(x), array(y)
 
-        x_train = x
-        y_train = y
+        sc = MinMaxScaler()
+
+        x_train = sc.fit_transform(x)
+        y_train = sc.fit_transform(y)
 
         x_train = x_train.reshape((x_train.shape[0], x_train.shape[1], 1))
         x = x.reshape((x.shape[0], x_train.shape[1], 1))
@@ -45,17 +47,21 @@ class Predict:
         nextArray = x[-13:-12].copy()
         for i in range(12):
             ytest = model.predict(nextArray)
+            ytest = sc.inverse_transform(ytest)
+
             nextArray = np.append(np.delete(nextArray[0], 0), ytest).reshape(1,12,1)
             testList.append(nextArray[0][-1][0])
-
 
         answerList = []
 
         nextArray = x[-1:].copy()
         for i in range(12):
             ytest = model.predict(nextArray)
+            ytest = sc.inverse_transform(ytest)
+
             nextArray = np.append(np.delete(nextArray[0], 0), ytest).reshape(1,12,1)
             answerList.append(nextArray[0][-1][0])
+
 
         self.test = testList
         self.result = answerList
