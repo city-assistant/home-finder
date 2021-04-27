@@ -138,20 +138,19 @@ Spring - 데이터 전달 허브, JWT를 통한 보안 관리
 
     2-1-3. ElasticSearch와 KakaoMap 연결 및 검색구현
 
-    ![home-finder%20e8c139eba89f4571961b32306766cdb1/Untitled%2010.png](home-finder%20e8c139eba89f4571961b32306766cdb1/Untitled%2010.png)
+    ![images/1.gif](images/1.gif)
 
                   카카오맵 api와 저장해둔 데이터를 연결시켜서 지도에 위치와 가격을 통한 검색을 실현
 
-    ![home-finder%20e8c139eba89f4571961b32306766cdb1/Untitled%2011.png](home-finder%20e8c139eba89f4571961b32306766cdb1/Untitled%2011.png)
+    ![images/2.gif](images/2.gif)
 
                                                          검색된 지역을 선택하면 해당되는 지역
 
-    ![home-finder%20e8c139eba89f4571961b32306766cdb1/Untitled%2012.png](home-finder%20e8c139eba89f4571961b32306766cdb1/Untitled%2012.png)
+    ![images/3.gif](images/3.gif)
 
-    LSTM으로 법정동 별 월 평균을 학습시켜 예측값 적용
+                                                         LSTM으로 학습시켜 예측값 적용
 
     주로 실거래가를 분석하는데 쓰이는데, 
-
     전월세 전환율을 적용한 합산 값을 기준으로 쓸 예정 
 
     ([https://roboreport.co.kr/딥러닝lstm으로-아파트-지수-예측하기-2-lstm-실험하기/](https://roboreport.co.kr/%EB%94%A5%EB%9F%AC%EB%8B%9Dlstm%EC%9C%BC%EB%A1%9C-%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%A7%80%EC%88%98-%EC%98%88%EC%B8%A1%ED%95%98%EA%B8%B0-2-lstm-%EC%8B%A4%ED%97%98%ED%95%98%EA%B8%B0/)) 참고
