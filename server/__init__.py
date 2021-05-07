@@ -7,18 +7,22 @@ import Predict
 app = Flask(__name__)
 CORS(app)
 
+
 @app.route("/", methods=['GET', 'POST'])
 def hello():
     p = Predict.Predict()
     p.action(json.loads(str(request.data).split('\'')[1])['data'])
     return {"result":p.result, "test":p.test}
 
+
 if __name__ == "__main__":
     app.run()
+
 
 @app.errorhandler(404) 
 def page_not_found(error): 
     return "페이지가 없습니다. URL를 확인 하세요", 404
+
 
 @app.errorhandler(500) 
 def page_not_found(error): 
